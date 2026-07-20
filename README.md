@@ -1,4 +1,12 @@
+<img src="docs/repository-cover.svg" width="100%" alt="Secure Dashboard Foundation — Next.js, Express, MongoDB, JWT and Docker" />
+
 # Secure Dashboard Foundation
+
+[![CI](https://github.com/merrrn1/secure-dashboard-foundation/actions/workflows/ci.yml/badge.svg)](https://github.com/merrrn1/secure-dashboard-foundation/actions/workflows/ci.yml)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white)](https://nextjs.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
+[![License](https://img.shields.io/badge/license-MIT-22C55E)](LICENSE)
 
 A compact, production-minded example of replacing a mocked dashboard with real authentication and API data.
 
