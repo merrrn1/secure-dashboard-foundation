@@ -29,7 +29,7 @@ Express 5 API ── validation, Helmet, CORS, rate limiting
 - MongoDB repository separated behind a `DataStore` interface, so tests use fast in-memory fixtures.
 - Zustand store that replaces mocked state with real API responses.
 - Deliberate loading, error, retry and empty states.
-- Docker Compose environment and CI workflow.
+- Docker Compose environment and repeatable test, typecheck and build commands.
 
 ## Run locally
 
@@ -67,4 +67,3 @@ npm run build
 This sample intentionally keeps access tokens in memory rather than local storage. A production continuation would add an HTTP-only, `Secure`, `SameSite` refresh cookie; rotation and revocation; CSRF handling appropriate to the deployment; structured audit events; secrets management; and contract tests against the real backend.
 
 The code is generic and contains no client source, credentials or private business logic.
-
