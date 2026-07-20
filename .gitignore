@@ -1,0 +1,12 @@
+node_modules/
+.next/
+dist/
+coverage/
+.env
+.env.local
+npm-debug.log*
+*.tsbuildinfo
+pnpm-workspace.yaml
+.pnpm-node-modules-backup/
+.playwright-cli/
+
